@@ -1,0 +1,9 @@
+body {
+    background: #EBEBEB;
+    min-width: 400px;
+    margin: 20px;
+}
+
+#settingsSaved {
+	display: none;
+}

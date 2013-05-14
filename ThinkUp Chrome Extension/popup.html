@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form id="settingsEdit" class="form-horizontal">
+		<div class="control-group">
+			<label class="control-label" for="inputAppAddress">ThinkUp App Address</label>
+			<div class="controls">
+				<input type="text" id="inputAppAddress" placeholder="ThinkUp App Address">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="inputUsername">ThinkUp Email</label>
+			<div class="controls">
+				<input type="text" id="inputUsername" placeholder="ThinkUp Email">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="inputAPIKey">ThinkUp API Key</label>
+			<div class="controls">
+				<input type="password" id="inputAPIKey" placeholder="ThinkUp API Key">
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<button id="saveSettings" class="btn">Start getting notifications!</button>
+			</div>
+		</div>
+	</form>
+	<div id="settingsSaved">
+		<h3>Your settings have been saved!</h3>
+		<button id="editSettings" class="btn">Edit settings</button>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+</html>
